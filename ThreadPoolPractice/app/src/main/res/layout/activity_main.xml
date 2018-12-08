@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	tools:context=".MainActivity">
+
+	<Button
+		android:id="@+id/base_button"
+		android:layout_width="110dp"
+		android:layout_height="wrap_content"
+		android:text="base"
+		/>
+
+	<Button
+		android:id="@+id/fixed_button"
+		android:layout_width="110dp"
+		android:layout_height="wrap_content"
+		android:text="fixed"/>
+
+	<Button
+		android:id="@+id/cached_button"
+		android:layout_width="110dp"
+		android:layout_height="wrap_content"
+		android:text="cached"/>
+
+	<Button
+		android:id="@+id/scheduled_button1"
+		android:layout_width="110dp"
+		android:layout_height="wrap_content"
+		android:text="scheduled1"/>
+
+	<Button
+		android:id="@+id/scheduled_button2"
+		android:layout_width="110dp"
+		android:layout_height="wrap_content"
+		android:text="scheduled2"/>
+
+	<Button
+		android:id="@+id/scheduled_button3"
+		android:layout_width="110dp"
+		android:layout_height="wrap_content"
+		android:text="scheduled3"/>
+
+	<Button
+		android:id="@+id/single_button"
+		android:layout_width="110dp"
+		android:layout_height="wrap_content"
+		android:text="single"/>
+
+	<Button
+		android:id="@+id/shutdown_button"
+		android:layout_width="110dp"
+		android:layout_height="wrap_content"
+		android:text="shutdown"/>
+
+</LinearLayout>
