@@ -10,11 +10,6 @@ import androidx.navigation.Navigation
 import kotlinx.android.synthetic.main.start_fragment.*
 
 class StartFragment : Fragment() {
-
-    companion object {
-        fun newInstance() = StartFragment()
-    }
-
     private lateinit var viewModel: StartViewModel
 
     override fun onCreateView(
